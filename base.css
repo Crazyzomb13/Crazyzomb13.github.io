@@ -1,0 +1,69 @@
+/* Reset some default styles to ensure consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Apply a background color and some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #504d4d;
+    color: rgb(0, 255, 234);
+    text-align: center;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #ffffff;
+}
+
+/* Style the main content section */
+section {
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Style for the container div */
+.photo-box {
+    width: 200px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Style for the image */
+.photo-box img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra spacing */
+    margin: 0 auto; /* Center the image horizontally */
+}
